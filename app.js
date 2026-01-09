@@ -12,3 +12,10 @@ items.forEach(item => {
     item.querySelector('.icon').textContent = '−';
   });
 });
+
+
+
+
+function toggleMenu() {
+  document.getElementById("navMenu").classList.toggle("active");
+}
